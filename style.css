@@ -6,7 +6,7 @@ body {
     background-size: cover;
     padding: 100px;
     font-family: 'Open Sans', sans-serif;
-    color: #000;
+    color: #FFFFFF;
     display: grid;
     align-items: center;
     grid-template-columns: 300px auto;
@@ -14,7 +14,6 @@ body {
 }
 
 body:after {
-    content: "Thanks to Unsplash (background image)";
     position: fixed;
     left: 0;
     bottom: 0;
@@ -28,7 +27,7 @@ h1 {
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 3;
-    color: rgb(104, 85, 57);
+    color: rgb(255, 255, 255);
     font-size: 48pt;
     font-family: 'Playfair Display', sans-serif;
   
@@ -60,7 +59,7 @@ ul {
 ul:before {
     content: 'Quick links';
     font-family: 'Permanent Marker', cursive;
-    color: rgb(28, 33, 104);
+    color: rgb(255, 255, 255);
     background-color: rgba(245, 233, 149, 0.5);
     font-size: 18pt;
 }
@@ -70,7 +69,7 @@ li {
 }
 
 a {
-    color: rgb(28, 33, 104);
+    color: rgb(255, 255, 255);
     display: inline-block;
     overflow: hidden;
     position: relative;
